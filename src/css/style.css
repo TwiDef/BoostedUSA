@@ -526,7 +526,7 @@
 }
 
 .accessories {
-  min-height: 406px;
+  min-height: 320px;
 }
 
 .accessories_title {
@@ -537,6 +537,7 @@
 }
 
 .accessories_line {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -547,7 +548,7 @@
 
 .accessories_line hr {
   margin: 0 auto;
-  margin-top: 22px;
+  margin-top: 0px;
   width: 70px;
   height: 2px;
 }
@@ -629,4 +630,19 @@
 
 .accessories_wrapper .accessories_items .item_price {
   text-align: center;
+}
+
+.empty {
+  height: 100px;
+}
+
+.empty_line {
+  height: 66px;
+  -webkit-box-shadow: 1px 1px 20px #d6d4d4;
+          box-shadow: 1px 1px 20px #d6d4d4;
+}
+
+.go {
+  height: 310px;
+  background-color: #000;
 }
